@@ -3,33 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web XI RPL 1</title>
+    <title>Latihan CSS XI RPL 1</title>
+
+    <style>
+        /*Contoh Internal CSS*/
+        body {
+            background-color: rgb(147, 39, 174);
+            font-family: Arial, sans-serif;
+        }
+
+        .paragraph {
+            color:rgb(244, 245, 246);
+            font-size: 30px;
+            text-align: center;
+            font-family: Arial;
+        }
+        </style>
+
+        <!--Contoh External CSS-->
+        <link rel="stylesheet" enctype="UTF-8" href="tampilan.css">
+
 </head>
 <body>
-    <h1>Selamat Datang di Website XI RPL 1 Texmaco!!!</h1>
-    <hr>
 
-    <H2>Jangan lupa Bernafas :)</H2>
+    <nav class="navbar">
+        <div class="logo">Web RPL Texmaco</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Halaman Utama</a></li>
+            <li><a href="resep_makanan.html">Resep Makanan</a></li>
+            <li><a href="surat_izin.html">Surat Izin</a></li>
+            <li><a href="kontak_anggota.html">Kontak Anggota</a></li>
+        </ul>
+    <h1 style="color:white; font-family: italic;">Halaman Utama</h1>
+    </nav>
 
-    <p>Kami adalah Kelas XI RPL 1 <mark>Texmaco Semarang</mark></p>
-    <p>Ini adalah Halaman Web <b>Pertama</b> Kami.</p>
-    <p>Kami <i>Sedang belajar</i> Git dan GitHub</p>
-
-    <h2>Nama <u>Anggota Kelompok</u> Kami:</h2>
-    <ol>
-        <li>abiyu</li>
-        <li>putra</li>
-        <li>aura</li>
-        <li>alfiya</li>
-    </ol>
-   <a href="multimedia.html">
-        Halaman multimedia
-    </a><br>
-    <a href="tabel.html">
-        Halaman tabel
-    </a><br>
-    <a href="Tugas_kelompok.html">
-        Tugas Kelompok
-    </a>
+    <!--Contoh Inline CSS-->
+    <h1 style="color:rgb(253, 252, 252);
+        font-size: 30px;
+        font-family:italic;
+        text-align: center;
+        ">
+        Ini adalah contoh inline CSS</h1>
+    <p class="paragraph">Halo semua, kami dari kelas XI RPL 1<br>
+         sedang belajar CSS.Kami setiapn hari belajar software development dengan giat.
 </body>
 </html>

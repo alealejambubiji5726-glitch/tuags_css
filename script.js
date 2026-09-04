@@ -13,3 +13,15 @@ function tampilkanNama() {
         </button>
     `;
 }
+
+function pesanMakanan() {
+    document.getElementById("namapesanan").innerHTML =
+    `
+    <ol>
+        <li>Terimakasih Telah Memesan Makanan, Silahkan Tunggu Pesanan Anda Datang</li>
+    </ol>
+    <button onclick="location.reload()">
+            pesan kembali
+        </button>
+    `;
+}

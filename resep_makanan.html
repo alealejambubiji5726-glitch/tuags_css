@@ -5,6 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resep Makanan</title>
     <link rel="stylesheet" href="tampilan.css">
+    <style>
+        .img-container {
+            width: 500px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+        }
+
+        .img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .img-container:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .img-container:hover img {
+            transform: scale(1.1);
+        }
+
+        .ya:hover {
+            background-color: rgb(90, 96, 155) !important;
+        }
+
+        .yagitu:hover {
+            background-color: rgb(111, 227, 48) !important;
+        }
+
+        .yaini:hover {
+            color: rgb(48, 107, 179) !important;
+        }
+
+        .yaudah:hover {
+            color: rgb(170, 83, 113) !important;
+        }
+
+        .yaudin:hover {
+            color: rgb(112, 59, 115) !important;
+        }
+
+        .tombol:hover {
+            background-color: rgb(12, 106, 106);
+        }
+    </style>
+    <script>
+        function pesanMakanan() {
+            alert("Pesanan Mie Bangladesh Anda berhasil diterima! Mohon tunggu sebentar.");
+        }
+    </script>
 </head>
 <body>
 
@@ -16,66 +71,70 @@
             <li><a href="surat_izin.html">Surat Izin</a></li>
             <li><a href="kontak_anggota.html">Kontak Anggota</a></li>
         </ul>
-
-    <h1 style="color:white; font-family: italic;">Halaman Resep Makanan</h1>
+        <h1 style="color:white; font-family: italic;">Halaman Resep Makanan</h1>
     </nav>
-<center>
-    <h1>Halaman Resep Makanan</h1>
 
-    <img src="bangladesh.jpg" alt="Mie Bangladesh" width="500px" height="300px">
+    <center>
+        <h1 style="color:rgb(232, 71, 71);">Halaman Resep Makanan</h1>
+        <div class="img-container">
+            <img src="bangladesh.jpg" alt="Mie Bangladesh">
+        </div>
+    </center>
 
-    <h2>Resep Mie Bangladesh</h2>
+    <h1 class="ya" style="background-color: aqua;">Resep Mie Bangladesh</h1>
     <hr><br>
-    <h2>Alat:</h2>
-    <ol>
-        <li>Panci</li>
-        <li>Wajan</li>
-        <li>Sendok Takar</li>
-        <li>Kompor</li>
-    </ol>
-    <hr><br>
-    <h2>Bahan:</h2>
-    <p>Bahan Utama:</p>
-    <ol>
-        <li>Mie instan (Indomie Goreng atau Mie Sedaap Kari Spesial)</li>
-        <li>Telur ayam</li>
-        <li>Sawi hijau</li>
-        <li>Air</li>
-        <li>BaWang goreng</li>
-        <li>Kecap manis</li></p>
-        <li>Saus sambal</li></p>
-        <li>Minyak goreng</li>
-        <li>Garam</li>
-        <li>Kaldu jamur</li>
-    <ol>Bahan Bumbu Rempah Halus:</ol>
-    <li>Cabai merah keriting</li>
-    <p>Cabai kering (direndam air panas)</p>
-    <p>Bawang merah</p>
-    <p>Bawang putih</p>
-    <p>Kacang tanah (digoreng)</p>
-    <p>Ebi / udang rebon (disangrai)</p>
-    <p>Kemiri (disangrai)</p>
-    <p>Jahe</p>
-    <p>Bubuk kari</p>
-    <p>Jinten</p>
-    <p>Ketumbar</p>
-    <p>Bubuk pala</p>
-    <p>Kapulaga</p>
-    <p>Bunga lawang (pekak)</p>
-    <p>Gula merah</ p>
-    <p>Garam</p>
-    <p>Kaldu jamur</ p>
-    <p>Minyak goreng</p>
-    <hr><br>
-    <p>Cara Membuat Mie Bangladesh:</p>
-    <ol>
-        <li>Siapkan bahan-bahan: mie, daging ayam, sayuran, bumbu-bumbu.</li>
-        <li>Rebus mie hingga matang, tiriskan.</li>
-        <li>Tumis daging ayam dan sayuran dengan bumbu hingga harum.</li>
-        <li>Campurkan mie dengan tumisan daging dan sayuran.</li>
-        <li>Sajikan hangat dan nikmati!</li>
-    </ol>
 
-</center>
+    <h1 class="ya" style="background-color: rgb(13, 121, 160);">Alat:</h1><br>
+    <p class="yagitu" style="background-color: aquamarine;">
+        1.Blender / Chopper: Untuk menghaluskan bumbu rempah dan kacang tanah agar teksturnya pas.<br>
+        2.Wajan / Pan: Untuk menumis bumbu halus dan memasak mie.<br>
+        3.Panci Kecil: Untuk merebus telur setengah matang (poached egg / telur puding) secara terpisah.<br>
+        4.Spatula / Susuk: Untuk mengaduk dan mengorari-arik telur.<br>
+        5.Mangkuk & Sendok: Untuk penyajian.
+    </p>
+
+    <hr><br>
+
+    <h1 class="ya" style="background-color: rgb(92, 47, 134);">Bahan:</h1><br>
+    <p class="yaini" style="background-color: lavender;">
+        1.Mie Instan: 2-3 bungkus Indomie Goreng (gunakan bumbu instannya juga).<br>
+        2.Telur Ayam: 2-3 butir (1 butir diaduk di dalam mie saat memasak, 1-2 butir direbus setengah matang untuk topping).<br>
+        3.Sayuran: Sawi hijau secukupnya, potong-potong.<br>
+        4.Air: Sekitar 400-500 ml (sesuaikan untuk tekstur kuah yang nyemek).<br>
+        5.Bahan Tambahan: 1 sdm kecap manis, 1 sdm saus sambal, serta garam dan kaldu jamur secukupnya.<br>
+        6.Taburan: Bawang merah goreng.<br>
+    </p>
+
+    <h1 class="ya" style="background-color: rgb(116, 27, 27);">Bumbu Halus Bangladesh (Bisa untuk beberapa porsi):</h1><br>
+    <p class="yaudah" style="background-color: pink;">
+        1.Cabai Merah Keriting: 5-6 buah (sesuaikan tingkat kepedasan).<br>
+        2.Bawang Putih: 3 siung.<br>
+        3.Bawang Merah: 3 siung.<br>
+        4.Kacang Tanah: 2 sdm (sangrai sebentar agar lebih wangi).<br>
+        5.Garam: 1/2 sdt (atau sesuai selera).<br>
+        6.Kaldu Jamur: 1/2 sdt (opsional, untuk rasa gurih).<br>
+        7.Minyak Goreng: 2 sdm (untuk menumis bumbu halus).<br>
+        8.Kecap Manis: 1 sdm (untuk menambah rasa manis dan warna kuah).<br>
+        9.Saus Sambal: 1 sdm (untuk rasa pedas dan warna kuah).<br>
+        10.Air: 400-500 ml (untuk membuat kuah yang nyemek).
+    </p>
+
+    <hr><br>
+
+    <h1 class="ya" style="background-color: rgb(196, 59, 168);">Cara Membuat Mie Bangladesh:</h1><br>
+    <p class="yaudin" style="background-color: lavenderblush;">
+        1.Rebus mie instan sesuai petunjuk pada kemasan, tiriskan, dan sisihkan.<br>
+        2.Siapkan bahan-bahan: mie, daging ayam, sayuran, bumbu-bumbu.<br>
+        3.Rebus mie hingga matang, tiriskan.<br>
+        4.Tumis daging ayam dan sayuran dengan bumbu hingga harum.<br>
+        5.Campurkan mie dengan tumisan daging dan sayuran.<br>
+        6.Sajikan hangat dan nikmati!
+    </p>
+
+    <hr><br>
+
+    <h2 id="namapesanan">Pesan Makanan</h2>
+    <button class="tombol" onclick="pesanMakanan()">Pesan Sekarang</button>
+
 </body>
 </html>

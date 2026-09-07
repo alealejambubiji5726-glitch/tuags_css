@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0d0d4d;
+    background-color: purple;
     padding: 16px 32px;
 }
 
@@ -40,7 +40,7 @@
 /*membuat tampilan hover*/
 .nav-links a:hover{
     background-color:white;
-    color: rgb(12, 12, 93);
+    color: rgb(24, 14, 140);
 }
 
 #items{

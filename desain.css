@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    padding: 16px 32px;
+}
+
+/*membuat tampilan logo*/
+.navbar .logo{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(248, 249, 245);
+    font-family:"italic";
+}
+
+
+/*membuat tampilan daftar menu*/
+.nav-links{
+    list-style:none;
+    display: flex;
+    gap: 25px;
+}
+
+ul.ul{
+    list-style-type: disc;
+    padding-left:20px;
+}
+
+ol.ol{
+    list-style-type: decimal;
+    padding-left:25px;
+}
+
+ol.ol ul{
+    list-style-type: disc;
+    padding-left:20px;
+}
+
+/*membuat tampilan teks link*/
+.nav-links a{
+    text-decoration: none;
+    color: rgb(246, 248, 250);
+    font-size:20px;
+    font-family: "impact";
+}
+
+/*membuat tampilan hover*/
+.nav-links a:hover{
+    background-color:white;
+    color: rgb(24, 14, 140);
+}
+
+#items{
+    font-size: 16px;
+    font-family: "impact";
+    color: rgb(38, 221, 206);
+}
